@@ -1,0 +1,42 @@
+.form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  min-width: 100%
+}
+
+.form input[type="text"]:hover {
+  border: 1px solid #8d8d8d;
+}
+
+.form input[type="text"]:focus {
+  border: 1px solid #000000;
+}
+
+.form button[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 40px;
+  color: #f04c64;
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.form button[type="submit"]:hover {
+  color: #c0001d;
+}
